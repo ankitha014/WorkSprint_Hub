@@ -1,0 +1,69 @@
+# =========================
+# 🔒 Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# 📦 Dependencies
+# =========================
+node_modules/
+
+# =========================
+# 🏗️ Build Outputs
+# =========================
+dist/
+dist-ssr/
+coverage/
+.cache/
+.tmp/
+
+# =========================
+# ⚙️ Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# 🖥️ OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🧑‍💻 Editor / IDE
+# =========================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# =========================
+# 🧪 Testing
+# =========================
+coverage/
+
+# =========================
+# ⚙️ Local Config Files
+# =========================
+*.local
+
+# =========================
+# 📁 Misc
+# =========================
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =========================
+# 📂 App-specific (optional)
+# =========================
+uploads/
+temp/
